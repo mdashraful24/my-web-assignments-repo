@@ -16,7 +16,7 @@ body {
     max-width: 1440px;
     height: 652px;
     margin: 0 auto;
-    margin-top: 40px;
+    margin-top: 50px;
     background-image: url("../assets/ba-banner.png");
     background-position: center;
     background-repeat: no-repeat;
@@ -53,10 +53,10 @@ body {
 .banner-content p {
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
-    font-size: 13px;
+    font-size: 16px;
     font-weight: 400;
     line-height: 26px;
-    letter-spacing: 0%;
+    line-height: 26px;
     text-align: center;
     margin-bottom: 32px;
 }
@@ -77,6 +77,7 @@ body {
     color: rgb(255, 255, 255);
     text-decoration: none;
 }
+
 /* Banner styles ends */
 
 
@@ -132,6 +133,7 @@ body {
     font-family: Azeret Mono;
     font-size: 16px;
     font-weight: 400;
+    line-height: 26px;
 }
 
 .web-dev-2nd {
@@ -170,6 +172,7 @@ body {
     color: rgb(13, 19, 33);
     font-size: 16px;
     font-weight: 400;
+    line-height: 22px;
     margin-bottom: 32px;
 }
 
@@ -252,8 +255,9 @@ body {
     font-family: Azeret Mono;
     font-size: 16px;
     font-weight: 400;
+    line-height: 22px;
     margin-top: -5px;
-    margin-bottom: 18px;
+    margin-bottom: 16px;
 }
 
 .right-side-middle button {
@@ -304,7 +308,8 @@ body {
     color: rgb(13, 19, 33);
     font-size: 16px;
     font-weight: 400;
-    margin-bottom: 20px;
+    line-height: 22px;
+    margin-bottom: 32px;
 }
 
 .left-side-last button {
@@ -370,7 +375,6 @@ body {
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
-    letter-spacing: 0%;
     text-align: center;
     margin-top: 24px;
     margin-bottom: 48px;
@@ -436,6 +440,7 @@ body {
     font-family: Azeret Mono;
     font-size: 16px;
     font-weight: 400;
+    line-height: 22px;
     text-align: center;
     margin-top: 24px;
 }
@@ -594,7 +599,7 @@ input {
 .web-btn-1 {
     width: 548px;
     height: 57px;
-    font-size: 20px;
+    font-size: 15px;
     font-weight: 400;
     color: rgba(13, 19, 33, 0.4);
     background: rgb(255, 255, 255);
@@ -609,7 +614,7 @@ input {
     border-radius: 8px;
     width: 120px;
     height: 58px;
-    font-size: 20px;
+    font-size: 17px;
     font-weight: 600;
     border: none;
     outline: none;
@@ -617,10 +622,12 @@ input {
     background: rgb(255, 255, 255);
 }
 
+.web-btn-2 a {
+    text-decoration: none;
+    color: rgb(13, 19, 33);
+}
+
 /* "Support" styles ends */
-
-
-
 
 
 /* Footer styles starts here */
@@ -668,5 +675,4 @@ input {
     height: 36px;
     margin-bottom: 20px;
 }
-
 /* Footer styles ends here */
