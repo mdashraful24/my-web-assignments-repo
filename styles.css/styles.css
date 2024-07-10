@@ -289,7 +289,7 @@ body {
     background: linear-gradient(90.00deg, rgb(255, 255, 255), rgba(255, 255, 255, 0) 100%);
     /* margin: 32px 0px; */
     display: flex;
-    margin-bottom: ;
+    /* margin-bottom: ; */
 }
 
 .left-side-last {
@@ -571,7 +571,7 @@ body {
     max-width: 1140px;
     height: 314px;
     margin: 0 auto;
-    background-image: url("../assets/hand-shake.jpg");
+    background-image: url("../hand-shake.jpg");
     background-color: rgba(0, 0, 0, 0.6);
     background-blend-mode: overlay;
     background-position: center;
