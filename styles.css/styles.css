@@ -2,7 +2,6 @@
 
 body {
     font-family: "Azeret Mono", monospace;
-    /* font-optical-sizing: auto; */
 }
 
 * {
@@ -12,7 +11,6 @@ body {
 }
 
 /* Banner styles starts */
-
 .banner-container {
     /* border: 2px solid red; */
     max-width: 1440px;
@@ -79,11 +77,10 @@ body {
     color: rgb(255, 255, 255);
     text-decoration: none;
 }
-
 /* Banner styles ends */
 
 
-/* Why Web Development?? section starts */
+/* Development section starts */
 .web-dev-container {
     /* border: 2px solid red; */
     width: 1140px;
@@ -96,12 +93,11 @@ body {
 }
 
 .web-dev-content {
+    /* border: 2px solid blue; */
     position: absolute;
     width: 946px;
     height: 1235px;
     margin: 0 auto;
-    /* border: 2px solid blue; */
-    /* border: none; */
     margin-top: 80px;
     margin-left: 97px;
     margin-right: 97px;
@@ -136,7 +132,6 @@ body {
     font-family: Azeret Mono;
     font-size: 16px;
     font-weight: 400;
-    /* margin-bottom: 100px; */
 }
 
 .web-dev-2nd {
@@ -157,8 +152,6 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /* align-items: center; */
-    /* text-align: left; */
     margin-left: 50px;
 }
 
@@ -190,7 +183,7 @@ body {
     box-sizing: border-box;
     border: 1px solid rgb(13, 19, 33);
     padding: 12px 20px 12px 20px;
-    margin-bottom: -50px;
+    margin-bottom: -34px;
 }
 
 .right-side {
@@ -345,6 +338,7 @@ body {
     color: rgba(13, 19, 33, 0.712);
     text-decoration: none;
 }
+/* Development styles ends here */
 
 
 /* Inspiration styles starts */
